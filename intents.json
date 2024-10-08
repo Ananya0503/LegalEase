@@ -1,0 +1,236 @@
+{
+  "intents": [
+    {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hey there",
+          "Hi there",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+        "Hello! Welcome to the Department of Justice. How can I assist you today?",
+        "Hi there! You're connected to the Department of Justice chatbot. How may I help you?",
+        "Greetings! I'm here to help you with information related to the Department of Justice. What would you like to know?",
+        "Hello and welcome to the Department of Justice. Feel free to ask any questions you may have!"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "bye bye",
+          "Catch you later",
+          "Farewell"
+        ],
+        "responses": [
+          "Goodbye! Thank you for reaching out to the Department of Justice.",
+          "See you later! If you have more questions, feel free to return.",
+          "Thanks for contacting the Department of Justice. Have a great day!",
+          "Goodbye! We're here whenever you need assistance. Stay safe!"
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Thanks a lot!",
+          "Okay, thanks",
+          "I appreciate it",
+          "Thanks for the help"
+        ],
+        "responses": [
+          "You're welcome! Happy to assist you.",
+          "My pleasure! Let me know if there's anything else you need.",
+          "Glad to help! Feel free to ask if you have more questions.",
+          "Any time! We're here to support you with any information you need."
+        ]
+    },   
+
+    {
+        "tag": "about_doj",
+        "patterns": [
+          "What is the Department of Justice?",
+          "Tell me about the DoJ",
+          "What does the DoJ do?",
+          "What are the functions of the Department of Justice?"
+        ],
+        "responses": [
+          "The Department of Justice (DoJ) is part of the Ministry of Law & Justice, Government of India, headed by the Secretary. It implements important schemes for the judiciary, including infrastructure development, setting up of Special Courts, eCourts Project, legal aid, and training of Judicial Officers."
+        ]
+    }, 
+    {
+        "tag": "services",
+        "patterns": [
+          "What services do you provide?",
+          "List of services?",
+          "What kind of services are available?",
+          "What does the Department of Justice offer?",
+          "Which services can I access here?"
+        ],
+        "responses": [
+          "The Department of Justice provides a variety of services including information on judiciary infrastructure, appointment of judges, live streaming of court cases, access to the eCourts services, and legal aid. For more details, visit our official website at https://doj.gov.in/"
+        ]
+    },
+    {
+        "tag": "contact",
+        "patterns": [
+          "Can I talk to someone?",
+          "How can I contact the Department of Justice?",
+          "Contact information for the DoJ",
+          "Can I contact someone?",
+          "I have some queries",
+          "I have some doubts",
+          "How do I reach the Department of Justice?"
+        ],
+        "responses": [
+          "You can contact the Department of Justice at our office: Jaisalmer House, 26, Man Singh Road Area, New Delhi, Delhi 110011.",
+          "For email inquiries, please write to us at contact-doj.gov.in.",
+          "For more details, please visit our official website: https://doj.gov.in/contact-us"
+        ]
+    },
+
+    {
+        "tag": "doj_divisions",
+        "patterns": [
+          "What are the divisions of the Department of Justice?",
+          "List the divisions of DoJ",
+          "Different divisions in the DoJ",
+          "Can you tell me about the divisions in DoJ?"
+        ],
+        "responses": [
+          "The Department of Justice has several divisions, including the Judicial Infrastructure Division, which focuses on the development of court infrastructure; the eCourts Division, which oversees the digital transformation of judiciary services; the Legal Aid Division, which ensures access to legal services for all citizens; and the Appointments Division, which manages the appointment of judges across various courts."
+        ]
+    },
+    {
+        "tag": "judges_appointment",
+        "patterns": [
+          "How many judges are appointed in Supreme Court?",
+          "Tell me the number of judges in High Courts",
+          "What is the current number of judges in District Courts?",
+          "How many judges are there?",
+          "How many vacancies are there in Subordinate Courts?"
+        ],
+        "responses": [
+          "The Supreme Court of India currently has a sanctioned strength of 34 judges, including the Chief Justice of India. The number of judges and vacancies in the High Courts and subordinate courts varies and is updated regularly. For the most current information, you can check the latest updates from the Department of Justice or the National Judicial Data Grid (NJDG)."
+        ]
+      },
+    {
+        "tag": "case_pendency",
+        "patterns": [
+          "What is the pendency of cases in India?",
+          "Tell me about the case backlog",
+          "How many cases are pending in courts?",
+          "Case pendency data"
+        ],
+        "responses": [
+          "As of the latest updates, there are millions of cases pending in various courts across India. The National Judicial Data Grid (NJDG) provides comprehensive data on case pendency, categorized by court type, case type, and other criteria. This data helps in monitoring and managing the backlog of cases effectively."
+        ]
+    },
+    {
+        "tag": "traffic_fine_payment",
+        "patterns": [
+          "How do I pay a traffic fine?",
+          "Procedure to pay traffic fines",
+          "Paying fine for traffic violation",
+          "Traffic fine payment online"
+        ],
+        "responses": [
+          "To pay a traffic fine, you can use the eChallan portal, which allows for online payments of traffic fines. You can also use the eCourts Services Mobile App to check your fines and make payments online easily."
+        ]
+    },
+    {
+        "tag": "live_streaming",
+        "patterns": [
+          "Is there live streaming of court cases?",
+          "How to watch live court cases?",
+          "Live streaming of cases",
+          "Can I see court cases live?"
+        ],
+        "responses": [
+          "Yes, the Supreme Court of India and some High Courts have started live streaming of certain cases, especially those of national importance. You can access these streams on their official websites or YouTube channels."
+        ]
+    },
+    {
+        "tag": "efiling",
+        "patterns": [
+          "How to file a case online?",
+          "Steps for eFiling",
+          "Process for eFiling",
+          "How do I use the eFiling service?"
+        ],
+        "responses": [
+          "To file a case online, you need to register on the eCourts portal. After registration, follow the step-by-step guide provided on the portal to submit your case documents and complete the filing process."
+        ]
+    },
+    {
+        "tag": "epay",
+        "patterns": [
+          "What is the process for ePay?",
+          "How to pay court fees online?",
+          "How to pay fine online?",
+          "Steps for using ePay",
+          "How do I use the ePay service?"
+        ],
+        "responses": [
+          "To use the ePay service, you can download the eCourts Services Mobile App. The app allows you to securely pay court fees and fines online using various digital payment methods."
+        ]
+    },
+    {
+        "tag": "fast_track_courts",
+        "patterns": [
+          "What are Fast Track Courts?",
+          "Explain Fast Track Courts",
+          "How do Fast Track Courts work?",
+          "Tell me about Fast Track Courts for rape cases"
+        ],
+        "responses": [
+          "Fast Track Courts are specialized courts established to expedite the trial and disposal of cases involving heinous crimes, such as rape and offenses under the POCSO Act. These courts aim to deliver justice swiftly and reduce the backlog of sensitive cases."
+        ]
+    },
+    {
+        "tag": "download_app",
+        "patterns": [
+          "How to download eCourts Services app?",
+          "Download the eCourts app",
+          "eCourts Services Mobile app download",
+          "Where can I get the eCourts app?"
+        ],
+        "responses": [
+          "The eCourts Services Mobile App is available for download on the Google Play Store for Android devices and the Apple App Store for iOS devices. Simply search for 'eCourts Services' to find and install the app."
+        ]
+    },
+    {
+        "tag": "tele_law_services",
+        "patterns": [
+          "How to avail Tele Law Services?",
+          "What are Tele Law Services?",
+          "Can I use Tele Law Services?",
+          "Tell me about Tele Law Services"
+        ],
+        "responses": [
+          "Tele Law Services provide free legal advice to citizens through video conferencing facilities at Common Service Centres (CSCs) across the country. To avail these services, visit your nearest CSC or access the Tele Law portal online."
+        ]
+    },
+    {
+        "tag": "case_status",
+        "patterns": [
+          "What is the status of my case?",
+          "Check my case status",
+          "How to know the current status of a case?",
+          "Find case status online"
+        ],
+        "responses": [
+          "You can check the current status of your case by visiting the eCourts website or using the eCourts Services Mobile App. Enter your case number or CNR number to retrieve the latest information on your case."
+        ]
+    }
+    ]
+}
